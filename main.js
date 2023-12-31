@@ -7,8 +7,11 @@ const createWindow = () => {
         height: 600,
         fullscreenable: true,
         autoHideMenuBar: true,
+        webPreferences: {
+            preload: path.join(__dirname, 'preload.js')
+        }
     })
-    const rootFile = path.join('index.html')
+    const rootFile = path.join(__dirname, 'index.html')
     win.loadFile(rootFile)
 }
 
