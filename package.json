@@ -1,0 +1,16 @@
+{
+  "name": "react-electron-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple and intuitive boilerplate for electron app with the React framework",
+  "main": "main.js",
+  "repository": "https://github.com/wilfreud/react-electron-boilerplate.git",
+  "author": "Commodore64",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}
